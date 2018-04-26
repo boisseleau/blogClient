@@ -1,0 +1,4 @@
+<div class="panel panel-warning"  *ngFor="let article of articles">
+    <div class="panel-heading"><h3 class="panel-title">{{ article.title }}</h3></div>
+    <div class="panel-footer panel-warning clear">Paru il y a {{ article.createdAt | daysAgo }}</div>
+  </div>
